@@ -1,0 +1,7 @@
+.env
+.env.*
+*.env
+*.key
+*.pem
+*.seed
+docs/assets/

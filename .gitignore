@@ -1,0 +1,32 @@
+# Dependências e Builds
+node_modules/
+dist/
+build/
+*.tsbuildinfo
+
+# Variáveis de Ambiente e Segredos
+.env
+.env.local
+.env.production
+*.key
+*.pem
+*.seed
+
+# Documentação Operacional com Dados Financeiros e Históricos Reais
+docs/LOG_BOOK.md
+docs/CODE_LOG.md
+docs/assets/*.png
+
+# Configurações de IDE e Ambiente do Usuário
+.vscode/
+.vscodeignore
+.idea/
+*.suo
+*.user
+
+# Logs do Sistema e PM2
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
